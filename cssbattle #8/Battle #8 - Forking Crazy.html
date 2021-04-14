@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle #8</title>
+</head>
+<body>
+    <div class="handle"></div>
+<div class="base"></div>
+<div class="prong first"></div>
+<div class="prong second down"></div>
+<div class="prong third"></div>
+<div class="prong fourth down"></div>
+<div class="prong fifth"></div>
+<div class="prong sixth down"></div>
+<div class="prong seventh"></div>
+<style>
+	 body {
+    margin: 0;
+    background: #6592CF;
+    position: relative;
+  }
+
+  .handle {
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+    content: '';
+    width: 20px;
+    height: 55px;
+    background: #060F55;
+    margin: 0 auto;
+  }
+  .base {
+    position: absolute;
+    bottom: 50px;
+    left: 33%;
+    content: '';
+    width: 140px;
+    height: 95px;
+    background: #060F55;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+  }
+  .prong {
+    position: absolute;
+    bottom: 132px;
+    content: '';
+    width: 20px;
+    height: 118px;
+    background: #060F55;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+  }
+
+  .first { left: 33%; }
+  .second {left: calc(33% + 20px); }
+  .third { left: calc(33% + 40px); }
+  .fourth { left: calc(33% + 60px); }
+  .fifth { left: calc(33% + 80px); }
+  .sixth { left: calc(33% + 100px); }
+  .seventh { left: calc(33% + 120px); }
+
+  .down {
+    bottom: 140px;
+    background: #6592CF; 
+    transform: rotate(180deg);
+  }
+</style>
+</body>
+</html>

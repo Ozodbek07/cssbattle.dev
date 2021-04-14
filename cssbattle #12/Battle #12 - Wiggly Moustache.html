@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle #12</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="c-1"></div>
+        <div class="c-2"></div>
+        <div class="c-3"></div>
+      </div>
+      <style> body {
+          margin: 0;
+          background: #F5D6B4;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      
+        .wrapper {
+          position: relative;
+          width: 255px;
+          height: 100px
+        }
+      
+        .c-1 {
+          width: 100px;
+          height: 50px;
+          background: #dd6b4d;
+          border-top-left-radius: 100px;
+          border-top-right-radius: 100px;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          transform: rotate(180deg);
+        }
+      
+        .c-1:after {
+          content: '';
+          width: 60px;
+          height: 30px;
+          background: #F5D6B4;
+          border-top-left-radius: 100px;
+          border-top-right-radius: 100px;
+          position: absolute;
+          left: 20px;
+          bottom: 0;
+        }
+      
+        .c-1:before {
+          content: '';
+          width: 20px;
+          height: 10px;
+          background: #D86F45;
+          border-top-left-radius: 100px;
+          border-top-right-radius: 100px;
+          position: absolute;
+          right: 0;
+          bottom: -10px;
+          transform: rotate(180deg);
+        }
+      
+        .c-2 {
+          width: 99px;
+          height: 50px;
+          background: #dd6b4d;
+          border-top-left-radius: 100px;
+          border-top-right-radius: 100px;
+          position: absolute;
+          left: 80px;
+          top: 0;
+        }
+      
+        .c-2:before {
+          content: '';
+          width: 55px;
+          height: 30px;
+          background: #F5D6B4;
+          border-top-left-radius: 100px;
+          border-top-right-radius: 100px;
+          position: absolute;
+          left: 20px;
+          bottom: 0;
+        }
+      
+        .c-3 {
+          width: 100px;
+          height: 50px;
+          background: #dd6b4d;
+          border-top-left-radius: 100px;
+          border-top-right-radius: 100px;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          transform: rotate(180deg);
+        }
+      
+        .c-3:after {
+          content: '';
+          width: 59px;
+          height: 30px;
+          background: #F5D6B4;
+          border-top-left-radius: 100px;
+          border-top-right-radius: 100px;
+          position: absolute;
+          right: 24px;
+          bottom: 0;
+        }
+      
+        .c-3:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: -10px;
+          width: 17px;
+          height: 10px;
+          border-top-left-radius: 100px;
+          border-top-right-radius: 100px;
+          background: #D86F45;
+          transform: rotate(180deg);
+        }</style>
+</body>
+</html>

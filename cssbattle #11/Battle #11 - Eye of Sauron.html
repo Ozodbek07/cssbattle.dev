@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle #11</title>
+</head>
+<body>
+    <div class="sm-circle-1"></div>
+<div class="bg-circle"></div>
+<div class="sm-circle-2"></div>
+<style> body {
+    background: #191210;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .sm-circle-1 {
+    height: 50px;
+    width: 100px;
+    background: #ECA03D;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    bottom: 92px;
+    left: 41px;
+  }
+
+  .sm-circle-1:before {
+    content: '';
+    height: 30px;
+    width: 60px;
+    background: #191210;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 21px;
+  }
+
+  .sm-circle-2 {
+    height: 50px;
+    width: 100px;
+    background: #ECA03D;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    bottom: 142px;
+    left: 243px;
+    transform: rotate(180deg);
+  }
+
+  .sm-circle-2:before {
+    content: '';
+    height: 30px;
+    width: 60px;
+    background: #191210;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 21px;
+  }
+
+  .bg-circle {
+    width: 140px;
+    height: 140px;
+    background: #ECA03D;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .bg-circle:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    background: #191210;
+    border-radius: inherit;
+  }
+
+  .bg-circle:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 50px;
+    background: #84271C;
+    border-radius: inherit;
+  }</style>
+</body>
+</html>
